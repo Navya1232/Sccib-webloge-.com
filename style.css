@@ -118,7 +118,7 @@ color: #ff0000;
 }
 
 footer{
-    background-color: rgb(15, 153, 112);
+    background-color: #df0357;
     color: #00ff95;
     text-align: center;
     font-weight: 500;
@@ -152,6 +152,10 @@ footer{
         margin: 20px 0px 30px 0px;
     }
 
+    .voice{
+        color: color-mix(in srgb, color percentage, color percentage);
+    }
+
     .carousel-cell {
         width: 66%;
         margin-right: 10px;
@@ -161,5 +165,3 @@ footer{
         .carousel-cell img {
             max-width: 100%;
         }
-
-
